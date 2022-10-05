@@ -1,0 +1,17 @@
+
+#content {
+    text-align: center;
+    padding: 0px;
+    margin:0px;
+    background-color: black;
+    color:white;
+}
+
+.main-image{
+    width: 800px;
+    height: 700px;
+}
+
+.tab{
+    color: black;
+}
