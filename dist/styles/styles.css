@@ -1,17 +1,63 @@
+html{
+    background-color: black;
+    display: flex;
+}
+
+#nav{
+    display:grid;
+    position:fixed;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    height: 20px;
+}
 
 #content {
+    display:flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
     padding: 0px;
     margin:0px;
+    border: 0px;
     background-color: black;
     color:white;
 }
 
 .main-image{
+    justify-content: center;
+    align-self: center;
     width: 800px;
     height: 700px;
 }
 
 .tab{
     color: black;
+}
+
+.menu-img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 400px;
+    height:300px;
+}
+
+.grid-lay{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+#footer{
+    position:fixed;
+    bottom:0;
+    align-self: center;
 }

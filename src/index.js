@@ -1,7 +1,10 @@
 import loadPage from "./modules/page-load";
-// import showIntro from './modules/home.js';
+import loadMenu from "./modules/menu";
+import loadContact from "./modules/contact"
+import loadHome from "./modules/home";
 
-init();
+
+init()
 
 function addNavEvents(){
     const homeButton = document.getElementById('home');
@@ -15,7 +18,6 @@ function addNavEvents(){
 
 function init(){
     loadPage();
-    showIntro();
     loadHome();
     loadContact();
     addNavEvents();

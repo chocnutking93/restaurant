@@ -57,23 +57,19 @@ export default function loadPage() {
     const nav = createNav('nav');
     content.appendChild(nav);
 
-    /////////Main Image default page
-    const mainImg = document.createElement('img');
-    mainImg.classList.add("main-image");
-    mainImg.src = "/images/lucas-andrade-3Uj0GwVmOeY-unsplash.jpg";
-    mainImg.alt = "Image of fried chicken";
-    content.appendChild(mainImg);
+    // /////////Main Image default page
+    // const mainImg = document.createElement('img');
+    // mainImg.classList.add("main-image");
+    // mainImg.src = "/images/lucas-andrade-3Uj0GwVmOeY-unsplash.jpg";
+    // mainImg.alt = "Image of fried chicken";
+    // content.appendChild(mainImg);
 
     ///////////Main Page opening statement
-    const para1 = document.createElement('p');
-    para1.classList.add("front-page");
-    para1.textContent = "This fried chicken is finga lickin good! Mmm mm mmm!";
-    content.appendChild(para1);
-
-    const para2 = document.createElement('p');
-    para2.classList.add("front-page");
-    para2.textContent = "Family friendly, bring a friend and enjoy watching your favorite sports teams!";
-    content.appendChild(para2);
+      
+    // const para2 = document.createElement('p');
+    // para2.classList.add("front-page");
+    // para2.textContent = "Family friendly, bring a friend and enjoy watching your favorite sports teams!";
+    // content.appendChild(para2);
 
     const tabContent = createMain('tab-content');
     content.appendChild(tabContent);
