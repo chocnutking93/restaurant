@@ -61,3 +61,11 @@ html{
     bottom:0;
     align-self: center;
 }
+
+#header{
+    position:fixed;
+    top:0;
+    align-items: center;
+    align-self: center;
+    padding:250px;
+}
